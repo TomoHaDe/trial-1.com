@@ -1,0 +1,206 @@
+body{
+    background-size: cover;
+}
+
+.img1{
+    width: 20%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;        
+}
+
+#h1, #h2{
+    text-align: center; 
+    color: royalblue;
+    font-family: Bell MT;
+
+}
+table, tr, th, td{
+    border-width: 1px;
+    border color: whitesmoke;
+    border-style: ridge;
+    margin: auto;
+    background-color: transparent;
+    text-align: justify;
+    font-family: Bell MT;
+}
+#educbg{
+    text-align: center;
+    color: royalblue;
+    font-family: Bell MT;
+    border: none;
+    outline: none;
+}
+#album{
+    text-align: center;
+    color: royalblue;
+    font-family: Bell MT;
+    border: none;
+    outline: none;
+    margin-left: 140px;
+
+}
+.button{
+width: 400px;
+display: inline-flex;
+background: transparent;
+border-color: whitesmoke;
+position: absolute;
+left: 200px;
+bottom: 50px;
+letter-spacing: 4px;
+transition: ease-out 0.3s;
+box-shadow: inset 0 0 0 0 skyblue;
+}
+.button:hover {
+    box-shadow: inset 400px 0 0 0 whitesmoke;
+    width: 400px;   
+}
+.button2{
+width: 400px;
+display: inline-flex;
+background: transparent;
+border-color: whitesmoke;
+position: absolute;
+left: 700px;
+bottom: 50px;
+letter-spacing: 4px;
+transition: ease-out 0.3s;
+box-shadow: inset 0 0 0 0 skyblue;
+}
+.button2:hover {
+    box-shadow: inset 400px 0 0 0 whitesmoke;
+    width: 400px;   
+}
+
+
+
+
+.img2{
+    width: 5%;
+    border-radius: 5%;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#h3{
+    text-align: left; 
+    color: lightskyblue;
+    font-family: Bell MT;
+}
+#h4{
+    text-align: left; 
+    color: whitesmoke;
+    font-family: Bell MT;
+}
+.button3{
+width: 400px;
+background: transparent;
+border: transparent;
+letter-spacing: 4px;
+transition: ease-out 0.3s;
+box-shadow: inset 0 0 0 0 black;
+position: absolute;
+left: -30px;
+}
+    .button3:hover {
+    box-shadow: inset 400px 0 0 0 transparent;
+    width: 400px;   
+}
+#per{
+    color: royalblue;
+    font-family: Bell MT;
+    border: none;
+    outline: none;
+}
+#view{
+    height: 360px;
+    padding: 40px;
+}
+#titlee{
+    text-align: center; 
+    color: whitesmoke;
+    font-family: Blackadder ITC;
+    font-size: 50px;
+  }
+#h5{
+    color: whitesmoke;
+    font-family: Bell MT ;
+    font-size: 25px;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+}
+#h6{
+    color: whitesmoke;
+    font-family: Bell MT ;
+    font-size: 25px;
+    position: absolute;
+    left: 525px;
+    top: 200px;
+}
+#h7{
+    color: whitesmoke;
+    font-family: Bell MT ;
+    font-size: 25px;
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+.button4{
+width: 400px;
+background: transparent;
+border: transparent;
+letter-spacing: 4px;
+transition: ease-out 0.3s;
+box-shadow: inset 0 0 0 0 whitesmoke;
+position: absolute;
+left: 500px;
+top: 670px;
+}
+    .button4:hover {
+    box-shadow: inset 400px 0 0 0 transparent;
+    width: 400px;   
+}
+#personal{
+    color: whitesmoke;
+    font-family: Blackadder ITC;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+    
+
+@keyframes animation{
+    0%{
+        left: 400px;
+        top: -325px;
+    }
+    25%{
+        left: 870px;
+        top: -325px;
+    }
+    50%{
+        left: 870px;
+        top: 0px;
+    }
+    75%{
+        left: 400px;
+        top: 0px;
+    }
+    100%{
+        left: 400px;
+        top: -325px;
+    }
+
+    .button1{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    position: relative;
+    animation: animation1 4s infinite;
+    border: none;
+}
+
+
